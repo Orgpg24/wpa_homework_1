@@ -1,0 +1,26 @@
+Tailwind Css Installation Step
+
+1. npm init -y
+
+2. npm install -D tailwindcss
+
+3. npx tailwindcss init
+
+4. tailwind.config.js
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+5. src/input.css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
