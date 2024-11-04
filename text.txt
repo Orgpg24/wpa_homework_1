@@ -25,6 +25,9 @@ module.exports = {
 
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
+for vercel
+
+npx tailwindcss -i ./src/input.css -o ./src/output.css --minify
 
 1. git init        eg.. npm init -y
 2. git remote add origin (github_repo_url)
