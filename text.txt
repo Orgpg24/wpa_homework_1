@@ -24,3 +24,35 @@ module.exports = {
 @tailwind utilities;
 
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+
+1. git init        eg.. npm init -y
+2. git remote add origin (github_repo_url)
+3. git add .
+4. git commit -m "message တစ်ခုခုရေး"
+5. git push origin ကိုယ့်branchကိုယ်တင် (git push origin main or main)
+
+
+
+echo "# Test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Orgpg24/Test.git
+git push -u origin main
+
+
+git remote add origin https://github.com/Orgpg24/Test.git
+git branch -M main
+git push -u origin main
+
+
+master to main change >> 
+
+git checkout -b main
+git push -u origin main
+
+
+Git Remote ကို ဖျက်ပါ
+git remote remove origin
